@@ -8,3 +8,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Dashboard::index');
 $routes->get('mahasiswa', 'Mahasiswa::index');
 $routes->get('matkul', 'MatKul::index');
+$routes->get('dosen', 'Dosen::index');
